@@ -8,7 +8,7 @@ The hotel chain needs to store this dataset in their PostgreSQL database for fur
 - Load the CSV file into a PostgreSQL table.
 - Ensure the import process is efficient and correctly handles large datasets.
 
-#### **2. Define the Correct Column Types and Normalize Data**
+#### **2. Define the Correct Column Types**
 
 To ensure accurate queries and better performance, the company wants to enforce proper data types and consistency. You need to:
 - Define appropriate column types such as dates, numbers, and unique identifiers.
@@ -22,7 +22,7 @@ The management team is looking for a high-level overview of key performance indi
 - The total revenue generated from bookings.
 - The average duration of stays across all bookings.
 - The number of bookings per country.
-- The average revenue per booking.
+- The average revenue per night per hotel
 
 #### **4. Perform Advanced Aggregations**
 
@@ -32,7 +32,7 @@ To understand the performance of different hotel locations and room types, the t
 - Provide reports that summarize data at multiple levels of granularity.
 - Allow flexible reporting by ensuring different grouping combinations are available.
 
-### **5. Evaluate Booking and Revenue Variability Across Multiple Factors**
+#### **5. Evaluate Booking and Revenue Variability Across Multiple Factors**
 
 The finance team wants to understand how different factors impact hotel performance by analyzing revenue and booking trends across independent dimensions. Your task is to:
 
