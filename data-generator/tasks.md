@@ -2,6 +2,8 @@
 
 A hotel chain has provided a dataset containing booking details from the past five years. They are interested in analyzing trends, optimizing revenue, and improving customer experience. Your task is to process the data and extract insights using PostgreSQL.
 
+You can [download the dataset from here](https://raw.githubusercontent.com/szelpe/booking-app-demo/refs/heads/master/data-generator/hotel_bookings.csv).
+
 #### **1. Import the CSV into PostgreSQL**
 
 The hotel chain needs to store this dataset in their PostgreSQL database for further analysis. Your task is to:
@@ -28,7 +30,7 @@ The management team is looking for a high-level overview of key performance indi
 
 To understand the performance of different hotel locations and room types, the team needs deeper insights. Your task is to:
 
-- Analyze revenue and booking counts by hotel, room type, and guest country.
+- Analyze revenue and booking counts by hotel, room type.
 - Provide reports that summarize data at multiple levels of granularity.
 - Allow flexible reporting by ensuring different grouping combinations are available.
 
@@ -52,7 +54,7 @@ The operations team is looking for insights into seasonal trends and booking beh
 
 #### **Optional Extra: Extract Guest Preferences and Trends**
 
-> The taks below requires more advanced skills not covered in this course.
+> The tasks below require more advanced skills not covered in this course.
 
 The marketing team wants to understand guest preferences to create targeted offers. They need to:
 
