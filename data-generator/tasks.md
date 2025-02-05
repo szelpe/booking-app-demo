@@ -32,8 +32,6 @@ To understand the performance of different hotel locations and room types, the t
 - Provide reports that summarize data at multiple levels of granularity.
 - Allow flexible reporting by ensuring different grouping combinations are available.
 
-Here’s the revised **Exercise 5**, making it distinct from Exercise 4 and ensuring that it requires the use of `CUBE` by analyzing fields that are not in a hierarchical relationship.
-
 ### **5. Evaluate Booking and Revenue Variability Across Multiple Factors**
 
 The finance team wants to understand how different factors impact hotel performance by analyzing revenue and booking trends across independent dimensions. Your task is to:
